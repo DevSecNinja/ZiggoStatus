@@ -1,6 +1,6 @@
 ## Python API fetching Ziggo outages & announcements
 
-# Usage
+## Usage
 
 ```` python
 import asyncio
