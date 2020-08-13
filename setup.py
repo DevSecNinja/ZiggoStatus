@@ -40,6 +40,6 @@ setup(
     name="ziggostatus",
     packages=find_packages(include=["ziggostatus"]),
     url="https://github.com/DevSecNinja/ZiggoStatus",
-    version="0.1.0",
+    version="0.1.1",
     zip_safe=False,
 )
