@@ -1,4 +1,5 @@
 ## Python API fetching Ziggo outages & announcements
+
 Use this package to check with the VodafoneZiggo API for outages & announcements on a VodafoneZiggo address.
 
 ![Test ziggostatus package](https://github.com/DevSecNinja/ZiggoStatus/workflows/Test%20ziggostatus%20package/badge.svg?branch=master)
