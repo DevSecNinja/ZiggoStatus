@@ -1,7 +1,6 @@
 """Fetch latest Ziggo outages and announcements."""
 from aiohttp import ClientSession, ClientResponseError
 from dataclasses import dataclass
-import logging
 
 
 @dataclass
@@ -10,6 +9,7 @@ class ZiggoOutages:
 
     URL = "https://restapi.ziggo.nl/1.0/incidents/"
     NAME = "Ziggo outages & announcements"
+
 
 async def get_ziggo_status(postalcode, housenumber, session: ClientSession, *, source=ZiggoOutages):
     """Fetch Ziggo outages & announcements."""

@@ -6,6 +6,7 @@ from ziggostatus import get_ziggo_status, ClientResponseError
 
 pytestmark = pytest.mark.asyncio
 
+
 async def testSuccessfulCall():
     session = aiohttp.ClientSession()
 
@@ -13,6 +14,7 @@ async def testSuccessfulCall():
     assert await get_ziggo_status("1012JS", "1", session) == "No announcements or outages known"
 
     await session.close()
+
 
 async def testUnsuccessfulCall():
     session = aiohttp.ClientSession()
