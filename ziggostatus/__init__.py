@@ -1,9 +1,7 @@
 """Fetch latest Ziggo outages and announcements."""
 from aiohttp import ClientSession, ClientResponseError
-from dataclasses import dataclass
 
 
-@dataclass
 class ZiggoOutages:
     """Class for holding Ziggo outages & announcements."""
 
